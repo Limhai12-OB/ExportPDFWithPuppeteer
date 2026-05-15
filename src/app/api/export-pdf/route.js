@@ -48,7 +48,7 @@ export async function GET(request) {
       headers: {
         "Content-Type": "application/pdf",
         "Content-Disposition":
-          'attachment; filename="report-java-abstraction-001.pdf"',
+          'attachment; filename="testing.pdf"',
       },
     });
   } finally {
